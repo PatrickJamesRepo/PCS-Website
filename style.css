@@ -1,3 +1,9 @@
+/* This is all just a template, we can totaly use WP for the whole site, this is a start. If possible,
+lets just put the side bar items in the nav bar, AND make it an infinty page, just to simply everything.
+If isra can do up some images, we can pull off some neat stuff in WP to make it LIVE, like motion effects.
+https://www.youtube.com/watch?v=2WO-jAHNURA here is a link. I put all this in the readme.txt as well. 
+Cheers */ 
+
 /* Color scheme */
 :root {
   --primary-color: #003F5C;
@@ -9,7 +15,7 @@
   --link-color: #0077B5;
 }
 
-/* Global styles */
+/* Global style */
 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -18,7 +24,7 @@ body {
   margin: 0;
   padding: 0;
   color: var(--text-color);
-  background-image: "C:\Users\patri\OneDrive\Desktop\PatrickFiles\PCS\PCS1.png" alt="PCS"; 
+  
 }
 
 /* Banner */
@@ -53,12 +59,11 @@ body {
 }
 
 #carouselExampleControlsNoTouching {
-  height: 500px; /* Adjust the height to your preference */
-}
+  height: 500px; 
 
 .carousel-item img {
-  height: 500px; /* Adjust the height to match the carousel height */
-  object-fit: cover; /* Ensure the images cover the full width and height of the container */
+  height: 500px; 
+  object-fit: cover; 
 }
 
 .carousel-inner {
