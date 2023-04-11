@@ -1,0 +1,246 @@
+/* Color scheme */
+:root {
+  --primary-color: #003F5C;
+  --secondary-color: #7A5195;
+  --accent-color: #EF5675;
+  --light-color: #F0AEC2;
+  --dark-color: #2A2A2A;
+  --text-color: #333333;
+  --link-color: #0077B5;
+}
+
+/* Global styles */
+{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-image: "C:\Users\patri\OneDrive\Desktop\PatrickFiles\PCS\PCS1.png" alt="PCS"; 
+}
+
+/* Banner */
+#banner {
+  background-size: auto;
+  height: 300px;
+  margin-right: 50%;
+}
+
+/* Content */
+#content {
+  margin-left: 12.5%;
+  padding: 1em;
+}
+
+/* Connect section */
+#connect {
+  margin-right: 1%;
+}
+
+#connect a {
+  background-color: var(--light-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+  font-size: 1.2em;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+#connect a:hover {
+  background-color: var(--accent-color);
+}
+
+#carouselExampleControlsNoTouching {
+  height: 500px; /* Adjust the height to your preference */
+}
+
+.carousel-item img {
+  height: 500px; /* Adjust the height to match the carousel height */
+  object-fit: cover; /* Ensure the images cover the full width and height of the container */
+}
+
+.carousel-inner {
+  height: 500px; /* set a fixed height */
+}
+
+.carousel-item img {
+  height: 100%; /* make the image height 100% of the carousel container */
+  object-fit: cover; /* or use object-fit: contain if you want the whole image to be visible */
+}
+
+
+/* Headings */
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+nav {
+  align-items: center;
+  background-color: var(--primary-color);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+nav h1 {
+  background-color: var(--light-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 13%;
+  padding: 0.5em;
+  transition: background-color 0.3s ease;
+}
+
+nav h1:hover {
+  background-color: var(--accent-color);
+}
+
+/* Buttons */
+button {
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  padding: 0.5em;
+}
+
+button:hover {
+  background-color: #6c63ff;
+  color: #fff;
+}
+
+/* Sidebar */
+#sidebar {
+  align-items: center;
+  background-color: var(--primary-color);
+  border-bottom-right-radius: 0;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  min-width: 100px;
+  padding: 2em 0.5em;
+  position: fixed;
+  top: 75px;
+  bottom: 0;
+  width: 200px;
+  z-index: 1;
+}
+
+#sidebar img {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  display: inline-block;
+}
+    
+    #sidebar a {
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5em;
+    margin: 0.5em;
+    padding: 0.5em;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+#sidebar a:hover {
+    background-color: rgb(24, 172, 142);
+}
+
+#my-form textarea {
+    height: 2em;
+    resize: none;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #05517a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .twitter-icon, .discord-icon {
+    display: inline-block;
+  }
+
+  #loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+  
+  aside {
+    background-color: navy;
+  }
+  #my {
+    color: red;
+}
+#our {
+    color: blue;
+}
+#news {
+    color: orange;
+}
+#project {
+    color: green;
+}
+#sidebar {
+    position: fixed;
+    top: 75px;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    background-color: rgb(56, 132, 194);
+    padding: 20px;
+    overflow-y: auto;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 15%;
+  }
+  
+  .card h2 {
+    margin: 0;
+  }
+  
+  .card-body {
+    margin: 0;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+  }
